@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="js/jquery.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  <div class="container">
+
+    <div class="users">
+
+      <div class="whoami">
+        <img src="img/profile.png">
+        <div class="whoareyou">
+          <div class="isim">Emir</div>
+          <div class="unvan">Admin</div>
+        </div>
+      </div>
+
+      
+      <ul id="ooo">
+        <h4 style="margin-left: 20px;">Kullanıcılar</h4>
+        <!--
+        <li>
+          <img src="img/profile.png" alt="">
+          <div>Emir</div>
+        </li>-->
+        
+      </ul>
+
+
+      <div class="exitPanel">
+        <button>
+          <img src="img/exit.png" alt="">
+          Çıkış
+        </button>
+      </div>
+    </div>
+
+
+    <div class="messagePanel">
+      <div class="roomNamePanel">
+        <img src="img/chat.png" alt="">
+        <div> CHAT ROOM 1</div>
+      </div>
+      <!--------------->
+
+      <ul class="messages" id="mlx">
+
+
+        <!-- <li class="message">
+          <img src="img/profile.png"  alt="">
+          <div class="mContainer">
+            <div class="mName">Emir</div>
+            <div class="mContent">SDSADSADA</div>
+          </div>
+        </li>-->
+
+        
+      
+      </ul>
+
+
+
+      <!--------------->
+      <div class="writeMessage">
+        <input type="text" id="messageInput" placeholder="Mesajınızı giriniz">
+        <button id="sendButton"><img src="img/send.png" alt="" draggable="false"></button>
+      </div>
+    </div>
+  </div>
+ 
+
+  <div class="loginContainer">
+    <h1>Hoşgeldiniz</h1>
+    <input type="text" id="enterName" placeholder="Kullanıcı Adı">
+    <input type="text" id="enterMail" placeholder="E-Posta">
+    <button id="jEnter">
+      <img src="img/send.png" alt="">
+      Giriş</button>
+
+      <p>Created by <a href="https://www.instagram.com/shutniqhtx/">Emir Tanır</a></p>
+
+  </div>
+
+
+  
+
+
+
+  <script src="js/jquery.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
+<script src="js/init.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
